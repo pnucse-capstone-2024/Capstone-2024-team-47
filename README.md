@@ -10,41 +10,47 @@
 <br>
 
 #### 1.3. 주요 내용
-###### 각 암호 알고리즘을 표준 및 구현 명세서에 맞게 구현
-> * 전자 서명 알고리즘 :  ECDSA(P-256, SHA-256)
-> * 키 교환 알고리즘 : ECDH(P-256, SHA-256)
-> * 키 유도 함수 : HKDF(SHA-256)
-> * 블록 암호 알고리즘 : AES, ARIA, HIGHT, SPECK, TWINE
-> * 블록 암호 운영모드 : ECB, CBC, CFB, OFB, CTR, GCM.
+##### 각 암호 알고리즘을 표준 및 구현 명세서에 맞게 구현
+```
+> 전자 서명 알고리즘 : ECDSA(P-256, SHA-256)
+> 키 교환 알고리즘 : ECDH(P-256, SHA-256)
+> 키 유도 함수 : HKDF(SHA-256)
+> 블록 암호 알고리즘 : AES, ARIA, HIGHT, SPECK, TWINE
+> 블록 암호 운영모드 : ECB, CBC, CFB, OFB, CTR, GCM.
+```
+
 > ![AlgorithmTest](https://github.com/user-attachments/assets/97e31878-173b-4025-96a9-11c00c1f7e66)
 
 <br>
 
-###### 실제 MMORPG 게임 환경을 위한 게임 서버 / 클라이언트 구현
-> * 서버: C# IOCP를 활용한 고성능/비동기 서버
-> * 클라이언트: Unity 2D
+##### 실제 MMORPG 게임 환경을 위한 게임 서버 / 클라이언트 구현
+```
+> 서버: C# IOCP를 활용한 고성능/비동기 서버
+> 클라이언트: Unity 2D
+``` 
+>
 > ![Server](https://github.com/user-attachments/assets/7c73b25f-4b08-4d86-a389-d0f3d844d3a7)
-서버 실행 화면
-<br>
-
+>
 > ![Client](https://github.com/user-attachments/assets/d51b687f-f3d6-49c0-8b61-4248a25e756d)
-클라이언트 실행 화면
-<br>
 
 <br> 
 
-###### 안전한 통신을 위한 Handshake Protocol 설계 및 구현 
-> Cipher Suite 교환, 서명 인증, 키 교환 및 유도가 포함됨.
+##### 안전한 통신을 위한 Handshake Protocol 설계 및 구현 
+```
+> Cipher Suite 교환, 서명 인증, 키 교환 및 유도가 포함
+```
 > ![Handshake Protocol](https://github.com/user-attachments/assets/d29b655d-2eeb-4ebe-9d65-e9492e3a06f7)
+>
 > ![CA](https://github.com/user-attachments/assets/b2d9cc36-585d-40fa-b074-3a9033f37ead)
 
 <br>
 
 ### 2. 상세설계
 #### 2.1. 시스템 구성도
-> 전통적인 서버 - 클라이언트 구조 <br>
+```
+> 전통적인 서버 - 클라이언트 구조, 서버에 각 클라이언트가 연결됨
+```
 > ![ServerClientArchitecture](https://github.com/user-attachments/assets/3a03dee2-f535-40a7-a625-00333d3eb35b)
-> 서버에 각 클라이언트가 연결됨. 
 
 <br>
 
