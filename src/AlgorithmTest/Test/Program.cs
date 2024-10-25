@@ -27,9 +27,32 @@ namespace Test
 
         public static void Main(string[] args)
         {
-            // BlockCipherTest();
-            // PublicKeyTest();
+            BlockCipherTest();
+            PublicKeyTest();
+            // HKDFTest();
 
+
+        }
+        static byte[] HexStringToByteArray(string hex)
+        {
+            int length = hex.Length;
+            byte[] bytes = new byte[length / 2];
+
+            for (int i = 0; i < length; i += 2)
+            {
+                bytes[i / 2] = Convert.ToByte(hex.Substring(i, 2), 16);
+            }
+
+            return bytes;
+        }
+
+        static void printHex(byte[] data)
+        {
+            Console.WriteLine(BitConverter.ToString(data).Replace("-", " "));
+        }
+
+        static void HKDFTest()
+        {
             byte[] IKM = HexStringToByteArray("0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b");
             Console.WriteLine();
             Console.WriteLine("IKM: ");
@@ -69,24 +92,6 @@ namespace Test
             Console.WriteLine();
             Console.WriteLine("TestVectorOKM : ");
             printHex(TestVectorOKM);
-
-        }
-        static byte[] HexStringToByteArray(string hex)
-        {
-            int length = hex.Length;
-            byte[] bytes = new byte[length / 2];
-
-            for (int i = 0; i < length; i += 2)
-            {
-                bytes[i / 2] = Convert.ToByte(hex.Substring(i, 2), 16);
-            }
-
-            return bytes;
-        }
-
-        static void printHex(byte[] data)
-        {
-            Console.WriteLine(BitConverter.ToString(data).Replace("-", " "));
         }
     }
 }
