@@ -91,7 +91,8 @@
 <br>
 
 ### 4. 소개 및 시연 영상
-> [2024년 전기 졸업과제 47 민트초코펩시](https://youtu.be/evoVeOPSZW0?si=BHpbNTZ_GxuvCYwd)
+> [![2024년 전기 졸업과제 47 민트초코펩시](http://img.youtube.com/vi/evoVeOPSZW0/0.jpg)](https://youtu.be/evoVeOPSZW0?si=BHpbNTZ_GxuvCYwd) <br>
+> link: [2024년 전기 졸업과제 47 민트초코펩시](https://youtu.be/evoVeOPSZW0?si=BHpbNTZ_GxuvCYwd)
 
 <br>
 
