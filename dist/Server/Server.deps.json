@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Server/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.27.4",
+          "NetworkCore": "1.0.0"
+        },
+        "runtime": {
+          "Server.dll": {}
+        }
+      },
+      "Google.Protobuf/3.27.4": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.27.4.0",
+            "fileVersion": "3.27.4.0"
+          }
+        }
+      },
+      "NetworkCore/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.27.4"
+        },
+        "runtime": {
+          "NetworkCore.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.27.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+Gq30rmb8lPS6SW7tNPR3gzMYQa64mIPTIR/pp3WsYekpzhjVaYxEmgaZLebh4giEhkDJVHqlzMOIyRdCpLPEQ==",
+      "path": "google.protobuf/3.27.4",
+      "hashPath": "google.protobuf.3.27.4.nupkg.sha512"
+    },
+    "NetworkCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

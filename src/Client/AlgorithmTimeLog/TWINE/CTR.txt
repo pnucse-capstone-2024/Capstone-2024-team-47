@@ -1,0 +1,7 @@
+﻿[Encrypt] 2.482 
+[Decrypt] 0.140 
+[Encrypt] 0.185 
+[Decrypt] 0.042 
+[Encrypt] 0.171 
+[Decrypt] 0.008 
+[Decrypt] 0.145 
