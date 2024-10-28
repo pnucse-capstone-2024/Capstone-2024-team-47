@@ -91,7 +91,7 @@
 <br>
 
 ### 4. 소개 및 시연 영상
-> 공사중...
+> [2024년 전기 졸업과제 47 민트초코펩시](https://youtu.be/evoVeOPSZW0?si=BHpbNTZ_GxuvCYwd)
 
 <br>
 
